@@ -30,5 +30,9 @@ namespace SQLite_Demo
             db.CreateTable<tblToDo>();
         }
 
+        public static List<tblToDo> ViewAll()
+        {
+
+        }
     }
 }

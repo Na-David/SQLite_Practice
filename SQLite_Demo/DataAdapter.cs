@@ -11,11 +11,11 @@ using System.Text;
 
 namespace SQLite_Demo
 {
-    class DataAdapter : BaseAdapter<tblToDo>
+    public class DatabaseAdapter : BaseAdapter<tblToDo>
     {
         private readonly Activity context;
         private readonly List<tblToDo> items;
-        public DataAdapter(Activity context, List<tblToDo> items)
+        public DatabaseAdapter(Activity context, List<tblToDo> items)
         {
             this.context = context;
             this.items = items;
